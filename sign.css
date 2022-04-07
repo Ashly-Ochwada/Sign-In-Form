@@ -1,0 +1,74 @@
+.form{
+    background-image: url(/Images/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.form-fill{
+    width: 330px;
+    height: 470px;
+    position: relative;
+    margin: auto;
+    padding: 40px;
+    background-color: rgb(240, 183, 232);
+}
+.box{
+    position: relative;
+    color: rgb(15, 15, 199);
+    align-items: center;
+    width: 350px;
+}
+#box-fill{
+    position: absolute;
+    width: 70px;
+    height: 35px;
+    background: linear-gradient(to right, #ff1010, #ee0634, #d605d3);
+    border: 40px;
+    border-radius: 10px;
+    transition: 7s;
+}
+.button{
+    padding: 10px 20px;
+    background: transparent;
+    cursor: pointer;
+    border: 2px;
+    outline: none;
+    position: relative;
+}
+.Input-Places{
+    top: 200px;
+    position: absolute;
+    width: 300px;
+    transition: .7s;
+}
+.input{
+    width: 250px;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: 2px solid #700481 ;
+    border-radius: 10px;
+    outline: none;
+    background: transparent;
+}
+.submit-button{
+    font-size: 20px;
+    width: 300px;
+    padding: 15px 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff1010, #ee0634, #d605d3);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check{
+    margin: 35px 13px 35px 13px;
+
+}
+span{
+    font-size: 20px;
+    position: absolute;
+    bottom: 70px;
+    color: rgb(64, 26, 26);
+}
